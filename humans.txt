@@ -1,0 +1,16 @@
+# humanstxt.org/
+# The humans responsible & technology colophon
+
+# TEAM
+
+    Jonathan Chrisp -- Web Developer -- @jonathanchrisp
+    Shane Koen      -- Product Owner
+
+# THANKS
+
+    Shane Koen
+
+# TECHNOLOGY COLOPHON
+
+    HTML5, CSS3
+    Backbone, Node, Bootstrap, jQuery, Modernizr, RequireJS
