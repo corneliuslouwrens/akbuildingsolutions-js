@@ -28,7 +28,7 @@ app.use(express.static(__dirname + '/public'));
 
 // make her listen
 app.listen(port);
-logger.info('AK Building Solutions and running on port:' + port);
+logger.info('AK Building Solutions up and running on port:' + port);
 
 module.exports.app = app;
 require('./routes');
