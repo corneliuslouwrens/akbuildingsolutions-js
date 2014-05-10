@@ -19,11 +19,10 @@ h1,h2,h3,h4,h5 { font-weight:100; }
 .container-fluid.contact p { margin:0; color:#fff; }
 
 .container.slider { margin-top:20px; margin-bottom:20px; }
-.container.slider span.glyphicon { width:100%; height:100%; font-size:46px; margin-top:160px; }
+.container.slider span.glyphicon { width:100%; height:100%; font-size:46px; margin-top:160px; color:#434345; }
 .container.slider img.slider-image { width:100%; height:350px; }
 
 .container.information { margin-top:20px; margin-bottom:20px; }
-.container.information h2 {}
 
 .container.products { margin-top:10px; margin-bottom:10px; }
 .container.products div.product { padding:10px; border:1px solid #e6e6e6; margin-top:10px; margin-bottom:10px; }
