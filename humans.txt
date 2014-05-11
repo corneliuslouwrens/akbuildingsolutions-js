@@ -3,14 +3,14 @@
 
 # TEAM
 
-    Jonathan Chrisp -- Web Developer -- @jonathanchrisp
-    Shane Koen      -- Product Owner
+  Jonathan Chrisp -- Web Developer -- @jonathanchrisp
+  Shane Koen      -- Product Owner
 
 # THANKS
 
-    Shane Koen
+  Shane Koen
 
 # TECHNOLOGY COLOPHON
 
-    HTML5, CSS3
-    Backbone, Node, Bootstrap, jQuery, Modernizr, RequireJS
+  HTML5, CSS3
+  Backbone, Node, Bootstrap, jQuery, Modernizr, RequireJS

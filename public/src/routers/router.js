@@ -1,23 +1,29 @@
 define([
-  'jquery',
-  'backbone'
-], function($, Backbone) {
-  'use strict';
+  'backbone',
+  'views/index'
+  ], function(Backbone, IndexView) {
+    'use strict';
 
-  var AppRouter = Backbone.Router.extend({
+    var AppRouter = Backbone.Router.extend({
 
-    routes: {
-      '': 'index'
-    },
+      routes: {
+        '': 'index'
+      },
 
-    initialize: function() {
-      console.log('Router Initialised!');
-    },
+      initialize: function() {
+        console.log('Router Initialised!');
 
-    index: function() {
-      console.log('Index function called!');
-    },
+        this.cached = {
+          index: undefined
+        }
+      },
+
+      index: function() {
+        console.log('Index function called!');
+        this.cached.index = this.cached.index || new IndexView;
+      },
+
+    });
+
+    return AppRouter;
   });
-
-  return AppRouter;
-});

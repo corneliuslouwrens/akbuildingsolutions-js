@@ -2,7 +2,7 @@ html { background-color: #fff; }
 body { padding-left: 0; padding-right: 0; background: transparent; font-family: "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; font-weight: 200; text-align: left; }
 h1,h2,h3,h4,h5 { font-weight:100; }
 
-.btn { background: #ffffff; border: 1px solid #e6e6e6; background-image: -moz-linear-gradient(270deg, #ffffff 0%, #e6e6e6 100%); background-image: -webkit-linear-gradient(270deg, #ffffff 0%, #e6e6e6 100%); background-image: -o-linear-gradient(270deg, #ffffff 0%, #e6e6e6 100%); background-image: linear-gradient(180deg, #ffffff 0%, #e6e6e6 100%); font-weight:200; }
+.btn { background: #fff; border: 1px solid #e6e6e6; background-image: -moz-linear-gradient(270deg, #fff 0%, #e6e6e6 100%); background-image: -webkit-linear-gradient(270deg, #fff 0%, #e6e6e6 100%); background-image: -o-linear-gradient(270deg, #fff 0%, #e6e6e6 100%); background-image: linear-gradient(180deg, #fff 0%, #e6e6e6 100%); font-weight:200; }
 .right { text-align: right; }
 .left { text-align: left; }
 .center { text-align: center; }
@@ -19,10 +19,10 @@ h1,h2,h3,h4,h5 { font-weight:100; }
 .container-fluid.contact p { margin:0; color:#fff; }
 
 .container.slider { margin-top:20px; margin-bottom:20px; }
-.container.slider span.glyphicon { width:100%; height:100%; font-size:46px; margin-top:160px; color:#434345; }
 .container.slider img.slider-image { width:100%; height:350px; }
 
 .container.information { margin-top:20px; margin-bottom:20px; }
+.container.information h2 { margin-top:0px; }
 
 .container.products { margin-top:10px; margin-bottom:10px; }
 .container.products div.product { padding:10px; border:1px solid #e6e6e6; margin-top:10px; margin-bottom:10px; }
@@ -32,6 +32,7 @@ h1,h2,h3,h4,h5 { font-weight:100; }
 .container.products div.contact textarea { width:100%; height:200px; padding:5px; resize:none; margin-bottom:10px; }
 
 .container-fluid.testimonial { background:#434345; padding:60px 20px; }
+.container-fluid div.testimonial { width:100%; height:100px; }
 .container-fluid.testimonial p.testimonial { font-size:32px; color:#fff; font-weight:100; margin-bottom:0px; }
 .container-fluid.testimonial p.person { font-size:24px; color:#fff; font-weight:100; margin-top:10px; margin-bottom:0px; }
 
@@ -48,8 +49,8 @@ h1,h2,h3,h4,h5 { font-weight:100; }
   .container-fluid.header img.header-logo { margin-left:auto; margin-right:auto; }
   .container-fluid.header h1 { text-align:center; padding:0; margin:0; }
   .container-fluid.contact p { text-align:center; }
-  .container.slider span.slider-navigation { display:none; }
-  .container-fluid.testimonial { background:#434345; padding:40px 20px; }
+  .container.slider { display:none; }
+  .container-fluid.testimonial { padding:40px 20px; }
   .container-fluid.footer img.footer-logo { margin-left:auto; margin-right:auto; float:none; margin-top:20px; }
   .container-fluid.footer address { text-align:center; }
 }
@@ -60,7 +61,6 @@ h1,h2,h3,h4,h5 { font-weight:100; }
   .container-fluid.header img.header-logo { margin-right:auto; }
   .container-fluid.header h1 { text-align:right;  float:right; margin-top:90px; }
   .container-fluid.contact p { text-align:center; }
-  .container.slider span.slider-navigation { display:none; }
 }
 
 /* Medium */

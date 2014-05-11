@@ -1,5 +1,3 @@
-'use strict';
-
 require.config({
   shim: {
     underscore: {
@@ -18,6 +16,10 @@ require.config({
     },
     handlebars: {
       exports: 'Handlebars'
+    },
+    royalSlider: {
+      deps: ['jquery'],
+      exports: 'RoyalSlider'
     }
   },
   paths: {
@@ -26,7 +28,8 @@ require.config({
     underscore: '../vendor/underscore/underscore-min',
     bootstrap: '../vendor/bootstrap/dist/js/bootstrap.min',
     handlebars: '../vendor/handlebars/handlebars',
-    text:  '../vendor/requirejs-text/text'
+    text:  '../vendor/requirejs-text/text',
+    royalSlider: '../lib/royalSlider'
   }
 });
 
