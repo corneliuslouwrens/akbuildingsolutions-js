@@ -16,10 +16,10 @@ define([
 
       model: {
         companyName: 'AK Building Solutions Ltd',
-        companyAddressOne: '13 Bowhay Road',
+        companyAddressOne: '13 Bowhay Lane',
         companyAddressTwo: 'Exeter',
         companyAddressThree: 'Devon',
-        companyPostcode: 'EX2 1NZ',
+        companyPostcode: 'EX4 1NZ.',
         companyEmail: 'akbuildingsolutions@gmail.com',
         companyTagLine: 'The Shutter Specalists',
         companyTelContactOne: '(07902) 041405',
