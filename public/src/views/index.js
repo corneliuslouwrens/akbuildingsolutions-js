@@ -5,8 +5,9 @@ define([
   'handlebars',
   'text!templates/index.html',
   'views/slides',
-  'views/testimonials'
-  ], function ($, _, Backbone, Handlebars, IndexTemplate, SlidesView, TestimonialsView) {
+  'views/testimonials',
+  'views/contact'
+  ], function ($, _, Backbone, Handlebars, IndexTemplate, SlidesView, TestimonialsView, ContactView) {
     'use strict';
 
     var IndexView = Backbone.View.extend({
@@ -35,6 +36,7 @@ define([
         this.$el.html(this.template(this.model));
         this.slides = new SlidesView();
         this.testimonials = new TestimonialsView();
+        this.contact = new ContactView();
         return this;
       }
 
