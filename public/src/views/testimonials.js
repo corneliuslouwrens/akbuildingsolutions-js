@@ -37,9 +37,9 @@ define([
       initialiseSlider: function() {
         this.$el.royalSlider({
           autoPlay: {
-        		enabled: true,
-        		pauseOnHover: true
-        	},
+            enabled: true,
+            pauseOnHover: true
+          },
           autoHeight:true,
           slidesSpacing: 0,
           arrowsNav: false,

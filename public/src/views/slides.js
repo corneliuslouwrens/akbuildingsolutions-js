@@ -43,7 +43,8 @@ define([
           autoPlay: {
             enabled: true,
             pauseOnHover: true,
-            delay: 5000
+            delay: 5000,
+            loop: true
           },
           imageScaleMode: 'fit-if-smaller',
           imageScalePadding: 0,
