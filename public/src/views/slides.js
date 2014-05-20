@@ -17,7 +17,10 @@ define([
 
         this.collection.add([
           { alt:'Slide Image 1', src: 'img/slider/slider-image-1.jpg' },
-          { alt:'Slide Image 1', src: 'img/slider/slider-image-1.jpg' }
+          { alt:'Slide Image 2', src: 'img/slider/slider-image-2.jpg' },
+          { alt:'Slide Image 3', src: 'img/slider/slider-image-3.jpg' },
+          { alt:'Slide Image 4', src: 'img/slider/slider-image-4.jpg' },
+          { alt:'Slide Image 5', src: 'img/slider/slider-image-5.jpg' }
         ]);
 
         this.render();
@@ -42,9 +45,10 @@ define([
             pauseOnHover: true,
             delay: 5000
           },
-          imageScaleMode: 'fill',
+          imageScaleMode: 'fit-if-smaller',
+          imageScalePadding: 0,
           slidesSpacing: 10,
-          randomizeSlides: true
+          numImagesToPreload: 4
         });
       },
     });
