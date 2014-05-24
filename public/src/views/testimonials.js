@@ -14,10 +14,8 @@ define([
 
       initialize: function() {
         this.collection = new Testimonials();
-
         this.collection.add([
-          { text:'Great products and services, on time and done to the agreed quote', person: 'Steven Fry', location: 'Exeter' },
-          { text:'Great products and services', person: 'Lebron James', location: 'United States' }
+          { text:'We were very pleased with the services that the company delivered and found that they are professional to the utmost in the way they presented themselves and the work that was carried out.', person: 'Clair Meintjies', location: 'Exeter Court Hotel' }
         ]);
 
         this.render();

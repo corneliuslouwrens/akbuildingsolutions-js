@@ -13,6 +13,10 @@ define([
     var IndexView = Backbone.View.extend({
       el: '#akbuildingsolutions',
 
+      events: {
+        'click button.contact': 'focusOnContactForm'
+      },
+
       template: Handlebars.compile(IndexTemplate),
 
       model: {
@@ -38,6 +42,10 @@ define([
         this.testimonials = new TestimonialsView();
         this.contact = new ContactView();
         return this;
+      },
+
+      focusOnContactForm: function() {
+        this.contact.$name.focus();
       }
 
     });
