@@ -55,6 +55,8 @@ input.has-error { border:2px solid #a94442; color:#a94442; }
   .container.slider { display:none; }
   .container.products div.product { height:auto; }
   .container-fluid.testimonial { padding:40px 20px; }
+  .container-fluid.testimonial p.testimonial { font-size:24px; }
+  .container-fluid.testimonial p.person { font-size:20px; }
   .container-fluid.footer img.footer-logo { margin-left:auto; margin-right:auto; float:none; margin-top:20px; }
   .container-fluid.footer address { text-align:center; }
 }
