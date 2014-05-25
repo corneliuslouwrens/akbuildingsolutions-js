@@ -15,7 +15,8 @@ define([
       initialize: function() {
         this.collection = new Testimonials();
         this.collection.add([
-          { text:'We were very pleased with the services that the company delivered and found that they are professional to the utmost in the way they presented themselves and the work that was carried out.', person: 'Clair Meintjies', location: 'Exeter Court Hotel' }
+          { text: 'We were very pleased with the services that the company delivered and found that they are professional to the utmost in the way they presented themselves and the work that was carried out.', person: 'Clair Meintjies', location: 'Exeter Court Hotel' },
+          { text: 'AK Building Solutions completed the installation within in a few days of giving them the go ahead. I was more than pleased with the quality of the shutters, the guys from AK were very professional from start to finish, and I would have no hesitation in using them again.' }
         ]);
 
         this.render();

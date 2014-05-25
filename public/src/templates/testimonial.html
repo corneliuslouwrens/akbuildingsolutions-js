@@ -1,2 +1,9 @@
 <p class="testimonial center">"{{text}}"</p>
-<p class="person center">{{person}}, {{location}}</p>
+{{#if person }}
+  <p class="person center">
+    {{person}}
+  {{#if location}}
+    , {{location}}
+  {{/if}}
+  </p>
+{{/if}}
