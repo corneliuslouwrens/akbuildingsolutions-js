@@ -25,7 +25,7 @@ define([
         companyAddressTwo: 'Exeter',
         companyAddressThree: 'Devon',
         companyPostcode: 'EX4 1NZ.',
-        companyEmail: 'akbuildingsolutions@gmail.com',
+        companyEmail: 'contact@akbuildingsolutions.com',
         companyTagLine: 'The Shutter Specalists',
         companyTelContactOne: '(07902) 041405',
         companyTelContactTwo: '(07474) 313593',
