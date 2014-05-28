@@ -242,11 +242,11 @@ img.rsImg {
 }
 
 .grab-cursor {
-	cursor:url(grab.png) 8 8, move;
+	cursor:url(../../img/grab.png) 8 8, move;
 }
 
 .grabbing-cursor{
-	cursor:url(grabbing.png) 8 8, move;
+	cursor:url(../../img/grabbing.png) 8 8, move;
 }
 
 .rsNoDrag {
@@ -261,5 +261,5 @@ img.rsImg {
 	height:100%;
 	display:block;
 	z-index: 20;
-	background: url(blank.gif);
+	background: url(../../img/blank.gif);
 }
