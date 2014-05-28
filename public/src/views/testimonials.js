@@ -37,6 +37,7 @@ define([
         this.$el.royalSlider({
           autoPlay: {
             enabled: true,
+            delay: 10000,
             pauseOnHover: true
           },
           autoHeight:true,
