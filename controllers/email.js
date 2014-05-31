@@ -1,8 +1,11 @@
+'use strict';
+
 var mandrill = require('mandrill-api/mandrill'),
     mandrill_client = new mandrill.Mandrill('dRwlqPntlPQqS3QQTydM1Q'),
     logger = require('../logger');
 
 exports.contact = function(req, res) {
+
   // contact request email
   var request_template = 'contact_request';
 
@@ -50,7 +53,7 @@ exports.contact = function(req, res) {
       }],
     }],
     'tags': ['contact_request']
-  }
+  };
 
   mandrill_client.messages.sendTemplate({'template_name': request_template, 'template_content': [], 'message': request_message }, function(result) {
     logger.info(result);
@@ -89,7 +92,7 @@ exports.contact = function(req, res) {
       }],
     }],
     'tags': ['contact_request']
-  }
+  };
 
   mandrill_client.messages.sendTemplate({'template_name': request_reply_template, 'template_content': [], 'message': reply_message }, function(result) {
     logger.info(result);

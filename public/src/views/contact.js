@@ -6,7 +6,7 @@ define([
   'text!templates/contact.html',
   'views/slides',
   'views/testimonials'
-  ], function ($, _, Backbone, Handlebars, ContactTemplate) {
+], function ($, _, Backbone, Handlebars, ContactTemplate) {
     'use strict';
 
     var ContactView = Backbone.View.extend({
@@ -97,7 +97,7 @@ define([
         this.$email.removeClass('has-success has-error');
         if(!this.$email.val() || !this.validateEmailAddress(this.$email.val())) {
           this.$email.addClass('has-error');
-          this.emailValidated = false
+          this.emailValidated = false;
         } else {
           this.$email.addClass('has-success');
           this.emailValidated = true;

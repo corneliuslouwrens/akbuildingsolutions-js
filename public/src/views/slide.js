@@ -2,11 +2,12 @@ define([
   'jquery',
   'underscore',
   'backbone',
+  'handlebars',
   'text!templates/slide.html'
-  ], function ($, _, Backbone, Slide) {
+], function ($, _, Backbone, Handlebars, Slide) {
     'use strict';
 
-    var Slide = Backbone.View.extend({
+    var SlideView = Backbone.View.extend({
 
       tagName: 'div',
 
@@ -22,5 +23,5 @@ define([
 
     });
 
-    return Slide;
+    return SlideView;
   });

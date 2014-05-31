@@ -29,7 +29,7 @@ require.config({
     bootstrap: '../vendor/bootstrap/dist/js/bootstrap.min',
     handlebars: '../vendor/handlebars/handlebars',
     text:  '../vendor/requirejs-text/text',
-    royalSlider: '../lib/royalSlider'
+    royalSlider: 'lib/royalSlider'
   }
 });
 
@@ -37,6 +37,8 @@ require([
   'backbone',
   'routers/router'
 ], function (Backbone, AppRouter) {
+  'use strict';
+
   new AppRouter();
   Backbone.history.start({ pushState: true});
 });

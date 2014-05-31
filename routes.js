@@ -1,3 +1,5 @@
+'use strict';
+
 var app = module.parent.exports.app;
 
 // controllers

@@ -7,7 +7,7 @@ define([
   'views/slides',
   'views/testimonials',
   'views/contact'
-  ], function ($, _, Backbone, Handlebars, IndexTemplate, SlidesView, TestimonialsView, ContactView) {
+], function ($, _, Backbone, Handlebars, IndexTemplate, SlidesView, TestimonialsView, ContactView) {
     'use strict';
 
     var IndexView = Backbone.View.extend({

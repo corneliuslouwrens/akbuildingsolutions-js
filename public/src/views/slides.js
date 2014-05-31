@@ -5,7 +5,7 @@ define([
   'royalSlider',
   'collections/slides',
   'views/slide'
-  ], function ($, _, Backbone, RoyalSlider, Slides, SlideView) {
+], function ($, _, Backbone, RoyalSlider, Slides, SlideView) {
     'use strict';
 
     var SlidesView = Backbone.View.extend({

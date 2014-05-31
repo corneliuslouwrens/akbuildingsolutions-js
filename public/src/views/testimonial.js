@@ -2,8 +2,9 @@ define([
   'jquery',
   'underscore',
   'backbone',
+  'handlebars',
   'text!templates/testimonial.html'
-  ], function ($, _, Backbone, testimonial) {
+], function ($, _, Backbone, Handlebars, testimonial) {
     'use strict';
 
     var Testimonial = Backbone.View.extend({

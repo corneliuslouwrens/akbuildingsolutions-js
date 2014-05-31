@@ -5,7 +5,7 @@ define([
   'royalSlider',
   'collections/testimonials',
   'views/testimonial'
-  ], function ($, _, Backbone, RoyalSlider, Testimonials, TestimonialView) {
+], function ($, _, Backbone, RoyalSlider, Testimonials, TestimonialView) {
     'use strict';
 
     var TestimonialsView = Backbone.View.extend({

@@ -2,7 +2,8 @@
 
 require('newrelic');
 
-// env configuration
+// env + port configuration
+var env  = process.env.NODE_ENV || 'development';
 var port = process.env.PORT || 3003;
 
 // modules
@@ -24,7 +25,14 @@ app.use(compress());
 app.use(bodyParser());
 app.use(methodOverride());
 app.use(require('winston-request-logger').create(logger));
-app.use(express.static(__dirname + '/public'));
+
+// define static path
+logger.info('Server will run in: ' + env + ' mode');
+if ('development' === env) {
+  app.use(express.static(__dirname + '/public'));
+} else {
+  app.use(express.static(__dirname + '/build'));
+}
 
 // make her listen
 app.listen(port);

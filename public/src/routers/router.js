@@ -15,12 +15,12 @@ define([
 
         this.cached = {
           index: undefined
-        }
+        };
       },
 
       index: function() {
         console.log('Index function called!');
-        this.cached.index = this.cached.index || new IndexView;
+        this.cached.index = this.cached.index || new IndexView();
       },
 
     });
